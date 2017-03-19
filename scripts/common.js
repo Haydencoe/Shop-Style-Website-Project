@@ -24,5 +24,5 @@ $(document).ready(function() {
 // Function that adds product to localstorage and navigates to cart page
 function addCart(id, title, price) {
   localStorage.setItem(id, JSON.stringify({title: title, price: price}))
-  location.href = 'http://www.haydencoe.co.uk/cart.html';
+  location.href = 'https://haydencoe.github.io/Shop-Style-Website-Project/cart.html';
 }
